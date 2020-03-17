@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test_Sauce_Demo]">
+  <test thread-count="2" name="Test(failed)">
+    <classes>
+      <class name="testSauceDemo.TestPage">
+        <methods>
+          <include name="setup"/>
+          <include name="Final_order_items"/>
+          <include name="Add_multiple_item_to_the_shopping_cart"/>
+          <include name="Continue_with_missing_mail_information"/>
+          <include name="Fill_users_information"/>
+          <include name="Login_with_a_valid_user"/>
+          <include name="Complete_a_purchase"/>
+        </methods>
+      </class> <!-- testSauceDemo.TestPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test_Sauce_Demo] -->
